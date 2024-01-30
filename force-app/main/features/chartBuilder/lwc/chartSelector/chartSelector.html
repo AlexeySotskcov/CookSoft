@@ -1,0 +1,12 @@
+<template>
+    <lightning-combobox
+        name="chartType"
+        label="Chart Type"
+        value=""
+        placeholder="Select Chart Type"
+        options={options}
+        onchange={handleChange}
+        required
+    ></lightning-combobox>
+    <p>Selected value is: {value}</p>
+</template>
